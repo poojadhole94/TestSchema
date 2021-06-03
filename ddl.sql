@@ -1,7 +1,6 @@
 USE DATABASE  "AIGI_EDR_COMMONMODEL_QA";  
 USE SCHEMA "COMMON"; 
 
-
 create or replace TABLE "hub_address_test" (
 	"AddressHKey" VARCHAR(32) NOT NULL,
 	"LoadTs" TIMESTAMP_NTZ(9),
