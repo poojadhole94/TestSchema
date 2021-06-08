@@ -1,3 +1,3 @@
 print("CICD Deployemnt plan")
 print('Execute sqls on snowflake')
-print("values is : %s" % value)
+print(args.value)
